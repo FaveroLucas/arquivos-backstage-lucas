@@ -1,10 +1,1 @@
-site_name: 'teste lucas'
-site_description: 'Local para documentacao'
-repo_url: https://github.com/athena-backstage/athena_doc_bk
 
-plugins:
-  - techdocs-core
-
-nav:
-  - FAQ:
-    - Index: 'index.md'
