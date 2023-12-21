@@ -1,0 +1,43 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api_transformacoes_solus_fatima_csc
+  description: API que realiza as transformações de dados entre o solus e Totvs 
+spec:
+  type: openapi
+  lifecycle: production
+  owner: builders
+  system: mit
+  consumesApis: 
+    - api_fornecedores_totvs
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: API Transformaçoes Solus Fatima
+      license:
+        name: MIT
+    servers:
+      - url: https://manager-athenasaude.sensedia.com/api-manager/#/apis/overview/384/revisions/38320
+    paths:
+      /transformacoes-solus-fatima/internal/v1/fornecedores:
+        post:
+          summary: cadastra fornecedor na solus
+      /transformacoes-solus-fatima/internal/v1/produto-solus:
+        post:
+          summary: cadastra produto na solus
+      /transformacoes-solus-fatima/internal/v1/titulos-a-pagar-protheus:
+        post:
+          summary: cadastra fornecedor na solus
+      /transformacoes-solus-fatima/internal/v1/nota-fiscal-saida:
+        post:
+          summary: cadastra fornecedor na solus
+      /transformacoes-solus-fatima/internal/v1/conta-receber:
+        post:
+          summary: cadastra fornecedor na solus
+      /transformacoes-solus-fatima/internal/v1/baixa-titulos:
+        post:
+          summary: cadastra fornecedor na solus
+      /transformacoes-solus-fatima/internal/v1/nfentrada:
+        post:
+          summary: cadastra fornecedor na solus

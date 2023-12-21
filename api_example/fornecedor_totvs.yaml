@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api_fornecedores_totvs
+  description: Inclui um Fornecedor em uma determinada Filial
+spec:
+  type: openapi
+  lifecycle: production
+  owner: builders
+  system: mit
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: API Fornecedores Totvs
+      license:
+        name: MIT
+    servers:
+      - url: https://manager-athenasaude.sensedia.com/api-manager/#/apis/overview/25/revisions/2208
+    paths:
+      /fornecedores-totvs/v1/fornecedores:
+        get:
+          summary: cadastra fornecedor na solus

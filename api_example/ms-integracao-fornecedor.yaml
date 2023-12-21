@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ms_integracao_fornecedor
+  description: Microservico que realiza a integracao de fornecedores na solus
+spec:
+  type: openapi
+  lifecycle: production
+  owner: builders
+  system: mit
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: ms-integracao-fornecedor
+      license:
+        name: MIT
+    servers:
+      - url: https://bitbucket.org/platformbuilders/ms-integracao-fornecedor-solus-maringa/src/desenvolvimento/?search_id=59b9ba0c-3bf8-478a-a7d1-a129b9f8f6ac

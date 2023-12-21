@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: MIT1015
+  description: mit 1015
+spec:
+  type: openapi
+  lifecycle: production
+  owner: builders
+  system: mit
+  consumesApis: 
+    - api_produtos_totvs
+    - api_transformacoes_solus_fatima_csc
+    - ms_integracao_produto

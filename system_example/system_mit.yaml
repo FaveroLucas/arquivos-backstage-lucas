@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: mit
+  description: Integração de fornecedores
+spec:
+  owner: builders
+  domain: CSC

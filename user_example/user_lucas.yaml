@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: lucas
+spec:
+  profile:
+    displayName: Lucas Fávero
+    email: lucas.favero@platformbuilders.io
+    picture: https://media.licdn.com/dms/image/C4D03AQEJELhOIotPqw/profile-displayphoto-shrink_200_200/0/1581277903063?e=2147483647&v=beta&t=YUrJCETEN9YHKjXhHd3v_2q69QAzKAJoq1tA64HkQ-Q
+  memberOf: [builders]

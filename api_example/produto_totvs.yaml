@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: api_produtos_totvs
+  description: APIS de Produtos Totvs
+spec:
+  type: openapi
+  lifecycle: production
+  owner: builders
+  system: mit
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: API Produtos Totvs
+      license:
+        name: MIT
+    servers:
+      - url: https://api-athenasaude.sensedia.com/produtos-totvs/v1
+    paths:
+      /produtos-totvs/v1/produtos:
+        post:
+          summary: cadastra produtos na solus
