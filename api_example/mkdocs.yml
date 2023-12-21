@@ -1,6 +1,6 @@
 site_name: 'teste lucas'
 site_description: 'Local para documentacao'
-repo_url: https://github.com/athena-backstage/athena_doc_bk
+repo_url: https://github.com/FaveroLucas/arquivos-backstage-lucas
 
 plugins:
   - techdocs-core
