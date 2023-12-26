@@ -3,5 +3,7 @@ kind: Domain
 metadata:
   name: csc
   description: Tudo de CSC
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   owner: builders

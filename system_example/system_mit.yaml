@@ -3,6 +3,8 @@ kind: System
 metadata:
   name: mit
   description: Integração de fornecedores
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   owner: builders
   domain: CSC

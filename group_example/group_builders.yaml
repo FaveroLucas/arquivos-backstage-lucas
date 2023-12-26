@@ -3,6 +3,8 @@ kind: Group
 metadata:
   name: builders
   description: Gateway team
+  annotations:
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: team
   profile:

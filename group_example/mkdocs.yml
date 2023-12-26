@@ -1,0 +1,11 @@
+site_name: 'teste lucas'
+site_description: 'Local para documentacao'
+repo_url: https://github.com/FaveroLucas/arquivos-backstage-lucas
+edit_uri: edit/main/api_example/docs
+
+plugins:
+  - techdocs-core
+
+nav:
+  - FAQ:
+    - Index: 'index.md'
