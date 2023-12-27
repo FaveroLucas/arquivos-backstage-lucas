@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: athena
+  description: Enterprise
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: team
+  profile:
+    displayName: Athena
+    email: emailgenerico@platformbuilders.io
+    picture : https://atuarios.org.br/wp-content/uploads/2023/01/images1.jpg
+  children: [builders]
+  members: []
